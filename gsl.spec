@@ -1,7 +1,7 @@
 Summary: The GNU Scientific Library for numerical analysis
 Name: gsl
 Version: 1.15
-Release: 11%{?dist}
+Release: 13%{?dist}
 URL: http://www.gnu.org/software/gsl/
 Source: ftp://ftp.gnu.org/gnu/gsl/%{name}-%{version}.tar.gz
 Patch0: gsl-1.10-lib64.patch
@@ -101,6 +101,12 @@ fi
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.15-13
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.15-12
+- Mass rebuild 2013-12-27
+
 * Tue Sep 24 2013 Frantisek Kluknavsky <fkluknav@redhat.com> - 1.15-11
 - resolves: #1009067
 - linked against atlas 3.10.1
